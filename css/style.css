@@ -1,0 +1,115 @@
+*{
+    Margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@font-face {
+    font-family: "Regular";
+    src: url("../Font/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: "Bold";
+    src: url("../Font/Montserrat-Bold.ttf");
+}
+@font-face {
+    font-family: "Italic" ;
+    src: url("../Font/Montserrat-Italic.ttf");
+}
+@font-face {
+    font-family:"SemiBold" ;
+    src: url("../Font/Montserrat-SemiBold.ttf");
+}
+h1 {
+    color: #010101;
+    font-family: "Bold";
+    font-size: 100px;
+    text-align: center;
+}
+.Hero1 {
+    width: 100%;
+    
+}
+.Hero2{
+    width: 100%;
+}
+.Hero3{
+    width: 100%;
+}
+.Hero4{
+    width: 100%;
+}
+.Hero5{
+    width: 100%;
+}
+.Nosotros{
+    color: #010101;
+    font-family: "SemiBold";
+    font-size: 16px;
+    text-align: center;
+
+}
+.container{
+    text-align: center;
+}
+.cardHome{
+     width: 300px;
+     height: 300px;
+     border: #000000 1px solid ;
+     border-radius:   10px; ;
+     padding: 65px;
+     margin: 100px;
+     display: inline-block;
+}
+.cardHome div{
+    background-color: #4285F4;
+    border-radius:  20px; ;
+    width: 167px;
+    height: 167px;
+
+}
+
+h2{
+    color: #010101;
+    font-family: "SemiBold";
+    font-size: 80px;
+    text-align: center;
+}
+.video{
+    text-align: center;
+}
+.logoNav{
+    width: 250px;
+    display: inline-block;
+}
+nav ul{
+    display: inline-block;
+    padding: 55px 40px;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    font-family: SemiBold;
+    font-size: 20px;
+    padding: 0px 30px;
+}
+a{
+    text-decoration: none;
+    color: #010101;
+}
+footer{
+    background-color:#A0A0A0 ;
+    text-align: center;
+}
+footer div{
+    list-style: none;
+    width: 33%;
+    display: inline-block;
+    padding: 55px 40px;
+}
+li{
+    list-style: none;
+    text-decoration:none;
+}
+
+
