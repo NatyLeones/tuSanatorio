@@ -26,6 +26,9 @@ h1 {
     font-size: 100px;
     text-align: center;
 }
+/* .navBar{
+    display: flex;
+} */
 .Hero1 {
     width: 100%;
     
@@ -97,19 +100,182 @@ a{
     text-decoration: none;
     color: #010101;
 }
-footer{
+/* footer{
     background-color:#A0A0A0 ;
     text-align: center;
-}
-footer div{
+} */
+/* footer div{
     list-style: none;
     width: 33%;
     display: inline-block;
     padding: 55px 40px;
-}
+} */
 li{
     list-style: none;
     text-decoration:none;
 }
 
+.navbar{
+    /* border: cornflowerblue solid 5px;  */
+    padding: 0;
+    font-family: "SemiBold";
+    font-size: 20px;
+}
 
+.fond{
+    background-color: rgb(255, 255, 255);
+}
+.menu-ancho{
+    justify-content: end;
+
+}
+.nav-link{
+    margin-right: 50px;
+}
+.active-style{
+    font-family: "bold";
+    color: rgb(66, 133, 244);
+}
+.hospital{
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+}
+.tarjeta{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 100%;
+  
+}
+.hospitales{
+    width: 100%;
+}
+.h2-style{
+    margin: 8rem 3rem 2rem;
+}
+.h3-style{
+    text-align: center;
+    color: #4285F4;
+}
+/*****************FOOTER***************/
+
+.footer__top{
+    display: flex;
+    padding-block: 1rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(168, 168, 167);
+    background-size: cover;
+    background-position: center center;
+    padding: 1rem;
+    font-family: "Regular";
+    margin-top: 4rem;
+}
+
+.footer__top >div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: large;
+}
+/* footer h3 {
+    color: #010101;
+    font-family: "Bold";
+} */
+.address{
+    align-items: flex-end;
+}
+.address p{
+    font-family: "Bold";
+    letter-spacing: 1px;
+}
+.footer__bottom{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.footer__bottom p{
+    font-family: "Regular";
+    letter-spacing: 1px; 
+    color: white;
+    font-size: large;
+}
+
+/******************** TURNOS *****************/
+.turno{
+    padding: 6rem;
+    padding-top: 5rem;
+}
+.turno_heading h5{
+    font-family: "Bold", cursive;
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+.datos_dni{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "label_dni"
+    "tipo_dni" 
+    "label_numero"  
+    "numero_dni"
+    "button";
+    width: 25rem;
+    
+}
+
+.datos_dni .label_numero{
+    grid-area: label_numero; 
+}
+
+
+
+.reservation_turno{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-areas: 
+    "dni        apellido            telefono        obra_social"
+    "numero     nombre_paciente     celular         plan"
+    "button     edad                sexo            email"
+
+}
+.reservation_turno .dni{
+    grid-area: dni ;
+}
+.reservation_turno .apellido{
+    grid-area: apellido ;
+}
+.reservation_turno .telefono{
+    grid-area: telefono ;
+}
+.reservation_turno .obra_social{
+    grid-area: obra_social ;
+}
+.reservation_turno .numero{
+    grid-area: numero ;
+}
+.reservation_turno .nombre_paciente{
+    grid-area: nombre_paciente ;
+}
+.reservation_turno .celular{
+    grid-area: celular ;
+}
+.reservation_turno .plan{
+    grid-area: plan ;
+}
+.reservation_turno .edad{
+    grid-area: edad ;
+}
+.reservation_turno .sexo{
+    grid-area: sexo ;
+}
+.reservation_turno .email{
+    grid-area: email ;
+}
