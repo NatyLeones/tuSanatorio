@@ -242,7 +242,7 @@ li{
 }
 .columna1{
     padding: 3rem;
-    border: #0055A4 solid;
+    /* border: #0055A4 solid; */
     margin: 1rem;
 } 
 
@@ -331,13 +331,6 @@ li{
     padding: 50px 55px 85px 55px;
     box-shadow: 0 0 20px ;
 }
-
-
-
-
-
-
-
 
 
 
