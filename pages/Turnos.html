@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">  
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../img/medical-history.png">
     <title>Tu Sanatorio</title>
@@ -36,93 +37,94 @@
         <section>
             <img class= "Hero4" src="../img/hero4-turno.svg" alt="Turnos">
         </section>
-
-        <section class="turno">
-            <div class="turno_heading">
-                <h5>Datos del paciente</h5>
-            </div>
+        <div class="title_3">
+            Datos del Paciente
+        </div>
 
 
-            <form class="datos_dni">
-
-                
-                <label class="label_dni" for="">Elegir Tipo de Documento</label>
+        <section class="datos_usuario">
+            <div class="columna1">
+                <form class="search_peoble">
 
                     <select class="tipo_dni">   
-                        <option  value="value1"></option>
+                        <option  value="value1">Tipo de DNI</option>
                         <option value="value2">DNI</option>
-                        <option value="value2">LC</option>
+                        <option value="value3">LC</option>
                     </select>
-               
+                    <input class="numero_dni" type="text" placeholder="Ingrese DNI" name="dni">
+                    <input class="button" type="button" value="Buscar Paciente">
+                </form>
+                </div>
 
-                <label class="label_numero" for="">Número</label>
-                    <input class="numero_dni" type="text" name="numero">
-
-                <input class="button" type="button" value="Buscar">
-
-            </form>
-
-
-
-
-
-            <!-- <form class="reservation_turno">
+             <div class="columna2">
+                <form class="reservation_turno">
+                    
+                    <input class="apellido" type="text" placeholder="Apellido" name="apellido">
+                    <input class="telefono" type="text" placeholder="Teléfono" name="telefono">
                 
-                <input class="apellido" type="text" placeholder="Apellido" name="apellido">
-                <input class="telefono" type="text" placeholder="Teléfono" name="telefono">
-               
-                
-                
-                <select class="obra_social">   
-                    <option  value="value1">Obra Social</option>
-                    <option value="value2">IAPOS</option>
-                    <option value="value3">PAMI</option>
-                    <option value="value4">OSPA</option>
-                    <option value="value5">SWET MEDICAL</option>
-                  </select>
+                    
+                    
+                    <select class="obra_social">   
+                        <option  value="value1">Obra Social</option>
+                        <option value="value2">IAPOS</option>
+                        <option value="value3">PAMI</option>
+                        <option value="value4">OSPA</option>
+                        <option value="value5">SWET MEDICAL</option>
+                    </select>
 
-                
-                <input class="nombre_paciente" type="text" placeholder="Nombre" name="nombre_paciente">    
-                <input class="celular" type="tel" placeholder="Celular" name="celular">
+                    
+                    <input class="nombre_paciente" type="text" placeholder="Nombre" name="nombre_paciente">    
+                    <input class="celular" type="tel" placeholder="Celular" name="celular">
+                    
+                    <select class="plan">   
+                        <option  value="value1">Plan</option>
+                        <option value="value2">Plata</option>
+                        <option value="value3">Diamante</option>
+                        <option value="value4">Oro</option>
+                    </select>
+                  
+                    <input class="edad" type="tel" placeholder="Edad" name="edad">
+                    
+        
+                    <select class="sexo">
+                        <option value="value1">Sexo</option>
+                        <option value="value2">Femenino</option>
+                        <option value="value3">Masculino</option>
+                    </select>
+                    <input class="email" type="email" placeholder="Email" name="email">
 
-                <select class="plan">
-                    <option value="value1">Plan</option>
-                    <option value="value2">Plata</option>
-                    <option value="value3">Oro</option>
-                  </select>
-                
-                <input class="edad" type="tel" placeholder="Edad" name="edad">
-                
-    
-                <select class="sexo">
-                    <option value="value1">Sexo</option>
-                    <option value="value2">Femenino</option>
-                    <option value="value3">Masculini</option>
-                  </select>
-                <input class="email" type="email" placeholder="Email" name="email">
-
-            </form> -->
-
+                </form>
+            </div> 
         </section>
 
 
+    </section>
 
 
     </main>
 
     <footer>
-        <div><img class="logoNav" src="../img/LOGO.svg" alt=""></div>
-        <div>Copyright@2023. All rights reserved| Tu Sanatorio</div>
-        <div>
-            <ul>
-                <li>Contacto</li>
-                <li><img src="../img/icon-celular.svg" alt="celular">+54 011 155 423 9860</li>
-                <li><img src="../img/icon-mail.svg" alt="mail">tusanatorio@gmail.com</li>
-            </ul>
+        <div class="footer">             
+            <div class="footer__top">
+                    <div class="logo">
+                        <img src="../img/LOGO.svg" alt="">
+        
+                </div>
+                <div class="address">
+                    <p>
+                        Contacto <br>
+                        <i class="bi bi-phone"></i>  +54 011 155 423 9860<br>
+                        <i class="bi bi-envelope"></i>  tusanatorio@gmail.com
+                </p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>Copyright@2023. All rights reserved| Tu Sanatorio</p>
+            </div>
         </div>
 
-
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> 
 </body>
 </html>

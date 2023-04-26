@@ -20,12 +20,12 @@
     font-family:"SemiBold" ;
     src: url("../Font/Montserrat-SemiBold.ttf");
 }
-h1 {
+/* h1 {
     color: #010101;
     font-family: "Bold";
     font-size: 100px;
     text-align: center;
-}
+} */
 /* .navBar{
     display: flex;
 } */
@@ -45,12 +45,46 @@ h1 {
 .Hero5{
     width: 100%;
 }
+.h1_style{
+    font-family: "bold";
+    color: #0055A4;
+    padding: 3rem;
+    text-align: center;
+    font-size: 64px;
+}
+.h2_style{
+    margin: 8rem 3rem 2rem;
+    font-size: 50px;
+    color:#0055A4;
+    text-align: center;
+}
+.h3-style{
+    text-align: center;
+    color:#0055A4;
+    font-size: 20px;
+    font-family: "Italic";
+}
+.title_3{
+    text-align: left;
+    color: #0055A4;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    font-size: 24px;
+    font-family: "SemiBold";
+}
+.body_gral{
+    text-align: justify;
+    color: #010101;
+    padding: 3rem;
+    font-size: 16px;
+    font-family: "Regular";
+    line-height: 2;
+}
 .Nosotros{
     color: #010101;
     font-family: "SemiBold";
     font-size: 16px;
     text-align: center;
-
 }
 .container{
     text-align: center;
@@ -65,19 +99,13 @@ h1 {
      display: inline-block;
 }
 .cardHome div{
-    background-color: #4285F4;
+    background-color: #0055A4;
     border-radius:  20px; ;
     width: 167px;
     height: 167px;
 
 }
 
-h2{
-    color: #010101;
-    font-family: "SemiBold";
-    font-size: 80px;
-    text-align: center;
-}
 .video{
     text-align: center;
 }
@@ -100,16 +128,7 @@ a{
     text-decoration: none;
     color: #010101;
 }
-/* footer{
-    background-color:#A0A0A0 ;
-    text-align: center;
-} */
-/* footer div{
-    list-style: none;
-    width: 33%;
-    display: inline-block;
-    padding: 55px 40px;
-} */
+
 li{
     list-style: none;
     text-decoration:none;
@@ -134,7 +153,7 @@ li{
 }
 .active-style{
     font-family: "bold";
-    color: rgb(66, 133, 244);
+    color: #0055A4;
 }
 .hospital{
     display: flex;
@@ -150,13 +169,7 @@ li{
 .hospitales{
     width: 100%;
 }
-.h2-style{
-    margin: 8rem 3rem 2rem;
-}
-.h3-style{
-    text-align: center;
-    color: #4285F4;
-}
+
 /*****************FOOTER***************/
 
 .footer__top{
@@ -183,99 +196,217 @@ li{
     color: white;
     font-size: large;
 }
-/* footer h3 {
-    color: #010101;
-    font-family: "Bold";
-} */
+
 .address{
     align-items: flex-end;
 }
 .address p{
-    font-family: "Bold";
+    font-family: "SemiBold";
     letter-spacing: 1px;
+    padding: 1rem;
 }
 .footer__bottom{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     color: white;
+    
 }
 .footer__bottom p{
     font-family: "Regular";
     letter-spacing: 1px; 
     color: white;
     font-size: large;
+    text-align: center;
+
+    font-size: 10px;
+   
+}
+.logo img{
+    width: 200px;
 }
 
-/******************** TURNOS *****************/
-.turno{
-    padding: 6rem;
-    padding-top: 5rem;
-}
-.turno_heading h5{
-    font-family: "Bold", cursive;
-    font-weight: 300;
-    font-size: 1.6rem;
-}
-.datos_dni{
+/******************** TURNOS - FORM *****************/
+
+.search_peoble{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
-    "label_dni"
-    "tipo_dni" 
-    "label_numero"  
+    "tipo_dni"   
     "numero_dni"
     "button";
     width: 25rem;
+    gap: 1rem;
+    font-family: "Regular";
     
 }
+.columna1{
+    padding: 3rem;
+    border: #0055A4 solid;
+    margin: 1rem;
+} 
 
-.datos_dni .label_numero{
-    grid-area: label_numero; 
+.search_peoble .tipo_dni{
+    grid-area: tipo_dni;
+    padding: 1rem; 
+}
+.search_peoble .numero_dni{
+    grid-area: numero_dni; 
+    padding: 1rem; 
+}
+.search_peoble .button{
+    grid-area: button;
+    padding: 1rem; 
+    border: 0; 
+    background-color: #0055A4;
+    color: white;
+    border-radius: 2px;
+    font-family: "SemiBold";
 }
 
 
 
-.reservation_turno{
+ .reservation_turno{
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr ;
     grid-template-areas: 
-    "dni        apellido            telefono        obra_social"
-    "numero     nombre_paciente     celular         plan"
-    "button     edad                sexo            email"
+    "apellido            telefono        obra_social"
+    "nombre_paciente     celular         plan"
+     "edad                sexo            email";
+    padding: 1rem;
+    font-family: "Regular";
+    gap: 1rem;
+}
 
-}
-.reservation_turno .dni{
-    grid-area: dni ;
-}
 .reservation_turno .apellido{
     grid-area: apellido ;
+    padding: 1rem; 
 }
 .reservation_turno .telefono{
     grid-area: telefono ;
+    padding: 1rem; 
 }
 .reservation_turno .obra_social{
     grid-area: obra_social ;
+    padding: 1rem; 
 }
-.reservation_turno .numero{
-    grid-area: numero ;
-}
+
 .reservation_turno .nombre_paciente{
     grid-area: nombre_paciente ;
+    padding: 1rem; 
 }
 .reservation_turno .celular{
     grid-area: celular ;
+    padding: 1rem; 
 }
 .reservation_turno .plan{
     grid-area: plan ;
+    padding: 1rem;
 }
 .reservation_turno .edad{
     grid-area: edad ;
+    padding: 1rem; 
 }
 .reservation_turno .sexo{
     grid-area: sexo ;
+    padding: 1rem; 
 }
 .reservation_turno .email{
     grid-area: email ;
+    padding: 1rem; 
+}
+.columna2{
+    padding: 3rem;
+    border: #0055A4 solid;
+    margin: 1rem;
+}
+/*************** REGISTRO2*****************/
+.form_login{
+    font-family: "Regular";
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 55px 85px 55px;
+    box-shadow: 0 0 20px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*************** REGISTRO*****************/
+.cuenta{
+    display: grid;
+    grid-template-columns:1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-areas: 
+    "mail"
+    "password"
+    "button";
+    padding: 1rem;
+    font-family: "Regular";
+    gap: 1rem;
+    width: 25rem;
+}
+.cuenta .email{
+    grid-area: email;
+    padding: 1rem; 
+}
+.cuenta .password{
+    grid-area: password;
+    padding: 1rem; 
+}
+.cuenta .button{
+    grid-area: button;
+    padding: 1rem; 
+}
+
+@media screen and (max-width: 480px) {
+    
+
+.hospital{
+    flex-direction: column;
+}
+.footer p{
+    flex-direction: column;
+    font-size: 10px;
+    margin: 0px;
+}
+.col{
+    flex-direction: column;
+}
+.h1_style
+{
+    font-size: 50px;
+    padding-bottom: 0px;
+}
+.h2_style{
+    font-size: 30px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+.body_gral{
+    font-size: 14px;
+}
+.search_peoble{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.reservation_turno{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
 }
