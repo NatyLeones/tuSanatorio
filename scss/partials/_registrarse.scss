@@ -1,7 +1,4 @@
 
-.paraemail{
-    padding: 20px 60px 20px 20px;
-}
 
 
 .pruebaRegistro{
@@ -13,10 +10,15 @@
     padding-left: 50px;
 }
 
+.paraemail{
+    padding: 20px 60px 20px 20px;
+   
+
+}
 
 .formRegistro{
     height: 656px;
-    width: 474.1554260253906px;
+    width: 474px;
     left: 100px;
     top: 184px;
     padding: 20px;
@@ -26,29 +28,32 @@
     bottom: 17.97%;
     background: #FFFFFF;
     border-radius: 42.487px;
+    }
+.ingresar{
+   
 }
-.botonIngreso{
-    height: 40px;
-    width: 327.1502685546875px;
-    left: 74px;
-    top: 485.2020263671875px;
-    border-radius: 8.497408866882324px;
-    padding: 10px 7px 10px 7px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 7px;
-    gap: 7px;
+// .botonIngreso{
+//     height: 40px;
+//     width: 327.1502685546875px;
+//     left: 74px;
+//     top: 485.2020263671875px;
+//     border-radius: 8.497408866882324px;
+//     padding: 10px 7px 10px 7px;
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     align-items: center;
+//     padding: 10px 7px;
+//     gap: 7px;
 
-    position: absolute;
-    width: 327.15px;
-    height: 40px;
-    left: 74px;
-    top: 485.2px;
+//     position: absolute;
+//     width: 327.15px;
+//     height: 40px;
+//     left: 74px;
+//     top: 485.2px;
 
-/* primary */
+// /* primary */
 
-background: #4285F4;
-border-radius: 8.49741px;
-}
+// background: #4285F4;
+// border-radius: 8.49741px;
+// }
