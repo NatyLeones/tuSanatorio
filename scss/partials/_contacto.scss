@@ -1,0 +1,30 @@
+.contacto{
+    display: flex;
+    padding: 2rem;
+    flex: 1;
+}
+
+.plano{
+    width: 100%;
+}
+.plano,
+.datos_ubicacion{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.datos_ubicacion{
+    align-items: center ;
+    font-size: 18px;
+    text-align: center;
+    line-height: 5;
+    .direccion {
+        border-bottom: 1px solid black;
+        width: 60%;  
+    }
+   & .telefono{
+    border-bottom: 1px solid black;
+        width: 60%;
+   }
+}

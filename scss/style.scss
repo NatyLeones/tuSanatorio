@@ -1,21 +1,16 @@
-$colorPrincipal:#0055A4;
+@import "./partials/variables";
 
-@font-face {
-    font-family: "Regular";
-    src: url("../Font/Montserrat-Regular.ttf");
-}
-@font-face {
-    font-family: "Bold";
-    src: url("../Font/Montserrat-Bold.ttf");
-}
-@font-face {
-    font-family: "Italic" ;
-    src: url("../Font/Montserrat-Italic.ttf");
-}
-@font-face {
-    font-family:"SemiBold" ;
-    src: url("../Font/Montserrat-SemiBold.ttf");
-}
-.Hero1, .Hero2,  .Hero3, .Hero4, .Hero5 {
-    width: 100%;   
-}
+@import"./partials/reset";
+
+@import "./partials/nav";
+@import "./partials/home";
+@import "./partials/profesionales";
+@import "./partials/contacto";
+@import "./partials/turnos";
+@import "./partials/registrarse";
+@import "./partials/footer";
+
+@import "./partials/media";
+
+
+

@@ -1,0 +1,73 @@
+$colorPrincipal: #0055A4;
+$colorSecundario: #010101;
+.h1_style{
+    font-family: "bold";
+    color: $colorPrincipal;
+    padding: 3rem;
+    text-align: center;
+    font-size: 64px;
+}
+.h2_style{
+    margin: 8rem 3rem 2rem;
+    font-size: 50px;
+    color:$colorPrincipal;
+    text-align: center;
+}
+.h3-style{
+    text-align: center;
+    color:$colorPrincipal;
+    font-size: 20px;
+    font-family: "Italic";
+}
+.title_3{
+    text-align: left;
+    color: $colorPrincipal;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    font-size: 24px;
+    font-family: "SemiBold";
+}
+.body_gral{
+    text-align: justify;
+    color: $colorSecundario;
+    padding: 3rem;
+    font-size: 16px;
+    font-family: "Regular";
+    line-height: 2;
+}
+.Nosotros{
+    color: $colorSecundario;
+    font-family: "SemiBold";
+    font-size: 16px;
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+.active-style{
+    font-family: "bold";
+    color: $colorPrincipal;
+}
+.hospital{
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+}
+.tarjeta{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 100%;
+  
+}
+.hospitales{
+    width: 100%;
+}
+.video{
+    text-align: center;
+}
+.tarjeta:hover{
+    
+    transform: scale(1.1);
+    transition: 1s;
+
+}

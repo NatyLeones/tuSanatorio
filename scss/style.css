@@ -1,3 +1,9 @@
+* {
+  Margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "Regular";
   src: url("../Font/Montserrat-Regular.ttf");
@@ -16,4 +22,402 @@
 }
 .Hero1, .Hero2, .Hero3, .Hero4, .Hero5 {
   width: 100%;
-}/*# sourceMappingURL=estilo.css.map */
+}
+
+.botones {
+  grid-area: botones;
+  padding: 1rem;
+  border: 0;
+  background-color: #0055A4;
+  color: white;
+  border-radius: 2px;
+  font-family: "SemiBold";
+  width: 100%;
+}
+
+.navbar {
+  padding: 0;
+  font-family: "SemiBold";
+  font-size: 20px;
+}
+.navbar .fond {
+  background-color: rgb(255, 255, 255);
+}
+.navbar .fond .logoNav {
+  width: 250px;
+  display: inline-block;
+}
+.navbar .fond .menu-ancho {
+  justify-content: end;
+}
+.navbar .fond .menu-ancho .nav-link {
+  margin-right: 50px;
+  text-decoration: none;
+  color: #010101;
+}
+
+.h1_style {
+  font-family: "bold";
+  color: #0055A4;
+  padding: 3rem;
+  text-align: center;
+  font-size: 64px;
+}
+
+.h2_style {
+  margin: 8rem 3rem 2rem;
+  font-size: 50px;
+  color: #0055A4;
+  text-align: center;
+}
+
+.h3-style {
+  text-align: center;
+  color: #0055A4;
+  font-size: 20px;
+  font-family: "Italic";
+}
+
+.title_3 {
+  text-align: left;
+  color: #0055A4;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  font-size: 24px;
+  font-family: "SemiBold";
+}
+
+.body_gral {
+  text-align: justify;
+  color: #010101;
+  padding: 3rem;
+  font-size: 16px;
+  font-family: "Regular";
+  line-height: 2;
+}
+
+.Nosotros {
+  color: #010101;
+  font-family: "SemiBold";
+  font-size: 16px;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.active-style {
+  font-family: "bold";
+  color: #0055A4;
+}
+
+.hospital {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.tarjeta {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 100%;
+}
+
+.hospitales {
+  width: 100%;
+}
+
+.video {
+  text-align: center;
+}
+
+.tarjeta:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.body_gral {
+  text-align: justify;
+  color: #010101;
+  padding: 3rem;
+  font-size: 16px;
+  font-family: "Regular";
+  line-height: 2;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.contacto {
+  display: flex;
+  padding: 2rem;
+  flex: 1;
+}
+
+.plano {
+  width: 100%;
+}
+
+.plano,
+.datos_ubicacion {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.datos_ubicacion {
+  align-items: center;
+  font-size: 18px;
+  text-align: center;
+  line-height: 5;
+}
+.datos_ubicacion .direccion {
+  border-bottom: 1px solid black;
+  width: 60%;
+}
+.datos_ubicacion .telefono {
+  border-bottom: 1px solid black;
+  width: 60%;
+}
+
+.title_3 {
+  text-align: left;
+  color: #0055A4;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  font-size: 24px;
+  font-family: "SemiBold";
+}
+
+.columna1 {
+  padding: 3rem;
+  /* border: #0055A4 solid; */
+  margin: 1rem;
+}
+.columna1 .search_people {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "tipo_dni" "numero_dni" "botones";
+  width: 25rem;
+  gap: 1rem;
+  font-family: "Regular";
+}
+.columna1 .search_people .tipo_dni {
+  grid-area: tipo_dni;
+  padding: 1rem;
+}
+.columna1 .search_people .numero_dni {
+  grid-area: numero_dni;
+  padding: 1rem;
+}
+
+.columna2 {
+  padding: 3rem;
+  border: #0055A4 solid;
+  margin: 1rem;
+}
+.columna2 .reservation_turno {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "apellido            telefono        obra_social" "nombre_paciente     celular         plan" "edad                sexo            email";
+  padding: 1rem;
+  font-family: "Regular";
+  gap: 1rem;
+}
+.columna2 .reservation_turno .apellido {
+  grid-area: apellido;
+  padding: 1rem;
+}
+.columna2 .reservation_turno .telefono {
+  grid-area: telefono;
+  padding: 1rem;
+}
+.columna2 .reservation_turno .obra_social {
+  grid-area: obra_social;
+  padding: 1rem;
+}
+.columna2 .reservation_turno .nombre_paciente {
+  grid-area: nombre_paciente;
+  padding: 1rem;
+}
+.columna2 .reservation_turno .celular {
+  grid-area: celular;
+  padding: 1rem;
+}
+.columna2 .reservation_turno .plan {
+  grid-area: plan;
+  padding: 1rem;
+}
+.columna2 .reservation_turno .edad {
+  grid-area: edad;
+  padding: 1rem;
+}
+.columna2 .reservation_turno .sexo {
+  grid-area: sexo;
+  padding: 1rem;
+}
+.columna2 .reservation_turno .email {
+  grid-area: email;
+  padding: 1rem;
+}
+
+.paraemail {
+  padding: 20px 60px 20px 20px;
+}
+
+.pruebaRegistro {
+  background-image: url(../img/registro2.svg);
+  min-width: 100%;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.formRegistro {
+  height: 656px;
+  width: 474.1554260254px;
+  left: 100px;
+  top: 184px;
+  padding: 20px;
+  left: 6.94%;
+  right: 60.13%;
+  top: 17.97%;
+  bottom: 17.97%;
+  background: #FFFFFF;
+  border-radius: 42.487px;
+}
+
+.botonIngreso {
+  height: 40px;
+  width: 327.1502685547px;
+  left: 74px;
+  top: 485.2020263672px;
+  border-radius: 8.4974088669px;
+  padding: 10px 7px 10px 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 7px;
+  gap: 7px;
+  position: absolute;
+  width: 327.15px;
+  height: 40px;
+  left: 74px;
+  top: 485.2px;
+  /* primary */
+  background: #4285F4;
+  border-radius: 8.49741px;
+}
+
+.footer__top {
+  display: flex;
+  padding-block: 1rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(168, 168, 167);
+  background-size: cover;
+  background-position: center center;
+  padding: 1rem;
+  font-family: "Regular";
+  margin-top: 4rem;
+}
+
+.footer__top div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: large;
+}
+
+.address {
+  align-items: flex-end;
+}
+
+.address p {
+  font-family: "SemiBold";
+  letter-spacing: 1px;
+  padding: 1rem;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.footer__bottom p {
+  font-family: "Regular";
+  letter-spacing: 1px;
+  color: white;
+  font-size: large;
+  text-align: center;
+  font-size: 10px;
+}
+
+.logo img {
+  width: 200px;
+}
+
+@media screen and (max-width: 480px) {
+  .hospital {
+    flex-direction: column;
+  }
+  .footer p {
+    flex-direction: column;
+    font-size: 10px;
+    margin: 0px;
+  }
+  .col {
+    flex-direction: column;
+  }
+  .h1_style {
+    font-size: 50px;
+    padding-bottom: 0px;
+  }
+  .h2_style {
+    font-size: 30px;
+    padding-bottom: 0px;
+    margin: 0px;
+  }
+  .body_gral {
+    font-size: 14px;
+  }
+  .columna1 {
+    flex-direction: column;
+  }
+  .search_people {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .reservation_turno {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .contacto {
+    flex-direction: column;
+  }
+  .pruebaRegistro {
+    background-image: none;
+  }
+}/*# sourceMappingURL=style.css.map */

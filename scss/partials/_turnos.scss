@@ -1,0 +1,93 @@
+
+
+.title_3{
+    text-align: left;
+    color: $colorPrincipal;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    font-size: 24px;
+    font-family: "SemiBold";
+}
+.columna1{
+    padding: 3rem;
+    /* border: #0055A4 solid; */
+    margin: 1rem;
+    .search_people{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+        "tipo_dni"   
+        "numero_dni"
+        "botones";
+        width: 25rem;
+        gap: 1rem;
+        font-family: "Regular";  
+        .tipo_dni{
+            grid-area: tipo_dni;
+            padding: 1rem; 
+        }
+        .numero_dni{
+            grid-area: numero_dni; 
+            padding: 1rem; 
+        }
+        
+    }
+} 
+
+
+.columna2{
+    padding: 3rem;
+    border: #0055A4 solid;
+    margin: 1rem;
+    .reservation_turno{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr ;
+        grid-template-areas: 
+        "apellido            telefono        obra_social"
+        "nombre_paciente     celular         plan"
+         "edad                sexo            email";
+        padding: 1rem;
+        font-family: "Regular";
+        gap: 1rem;
+        .apellido{
+            grid-area: apellido ;
+            padding: 1rem; 
+        }
+        .telefono{
+            grid-area: telefono ;
+            padding: 1rem; 
+        }
+        .obra_social{
+            grid-area: obra_social ;
+            padding: 1rem; 
+        }
+        .nombre_paciente{
+            grid-area: nombre_paciente ;
+            padding: 1rem; 
+        }
+        .celular{
+            grid-area: celular ;
+            padding: 1rem; 
+        }
+        .plan{
+            grid-area: plan ;
+            padding: 1rem;
+        }
+        .edad{
+            grid-area: edad ;
+            padding: 1rem; 
+        }
+        .sexo{
+            grid-area: sexo ;
+            padding: 1rem; 
+        }
+        .email{
+            grid-area: email ;
+            padding: 1rem; 
+        }
+    }
+}
+
+

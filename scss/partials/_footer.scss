@@ -1,0 +1,52 @@
+.footer__top{
+    display: flex;
+    padding-block: 1rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(168, 168, 167);
+    background-size: cover;
+    background-position: center center;
+    padding: 1rem;
+    font-family: "Regular";
+    margin-top: 4rem;
+}
+
+.footer__top div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: large;
+}
+
+.address{
+    align-items: flex-end;
+}
+.address p{
+    font-family: "SemiBold";
+    letter-spacing: 1px;
+    padding: 1rem;
+}
+.footer__bottom{
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+.footer__bottom p{
+    font-family: "Regular";
+    letter-spacing: 1px; 
+    color: white;
+    font-size: large;
+    text-align: center;
+
+    font-size: 10px;
+   
+}
+.logo img{
+    width: 200px;
+}

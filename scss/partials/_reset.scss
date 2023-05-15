@@ -1,0 +1,37 @@
+*{
+    Margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+@font-face {
+    font-family: "Regular";
+    src: url("../Font/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: "Bold";
+    src: url("../Font/Montserrat-Bold.ttf");
+}
+@font-face {
+    font-family: "Italic" ;
+    src: url("../Font/Montserrat-Italic.ttf");
+}
+@font-face {
+    font-family:"SemiBold" ;
+    src: url("../Font/Montserrat-SemiBold.ttf");
+}
+.Hero1, .Hero2,  .Hero3, .Hero4, .Hero5 {
+    width: 100%;   
+}
+.botones{
+    grid-area: botones;
+    padding: 1rem; 
+    border: 0; 
+    background-color: $colorPrincipal;
+    color: white;
+    border-radius: 2px;
+    font-family: "SemiBold";
+    width: 100%;
+}
