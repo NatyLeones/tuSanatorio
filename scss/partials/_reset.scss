@@ -22,9 +22,14 @@
     font-family:"SemiBold" ;
     src: url("../Font/Montserrat-SemiBold.ttf");
 }
-.Hero1, .Hero2,  .Hero3, .Hero4, .Hero5 {
-    width: 100%;   
+
+
+@for $i from 1 through 5{
+    .Hero#{$i}{
+        width: 100%;
+    }
 }
+
 .botones{
     grid-area: botones;
     padding: 1rem; 

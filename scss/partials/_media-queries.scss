@@ -25,20 +25,7 @@
     .body_gral{
         font-size: 14px;
     }
-    .columna1{
-        flex-direction: column;
-    }
-    .search_people{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .reservation_turno{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        padding: 0px;
-    }
+
     .contacto{
         flex-direction: column;
     }
@@ -46,4 +33,29 @@
         background-image: none;
     }
 
+    
+
+    .columna2{
+        flex-direction: column;
+        .reservation_turno{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 0px;
+        }
+    }
+    
+  
+    .columna1{
+        
+        .search_people{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .pruebaRegistro{
+        padding: 0;
+
+    }
     }

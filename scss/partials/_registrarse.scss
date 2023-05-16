@@ -1,6 +1,4 @@
 
-
-
 .pruebaRegistro{
     background-image: url(../img/registro2.svg);
     min-width: 100%;
@@ -11,13 +9,16 @@
 }
 
 .paraemail{
-    padding: 20px 60px 20px 20px;
+    padding: 20px 102px 20px 0px;
    
 
 }
-
+.contra{
+    padding: 20px 60px 20px 0px;
+    padding-bottom: 80px;
+}
 .formRegistro{
-    height: 656px;
+    // height: 656px;
     width: 474px;
     left: 100px;
     top: 184px;
@@ -25,35 +26,18 @@
     left: 6.94%;
     right: 60.13%;
     top: 17.97%;
-    bottom: 17.97%;
+    // bottom: 17.97%;
     background: #FFFFFF;
     border-radius: 42.487px;
+    box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.39);
+    .h2_registro{
+        margin: 2rem 3rem 2rem;
     }
-.ingresar{
-   
+    }
+.form-txt{
+    padding: 2rem;
+    justify-content: center;
+    font-size: 12px;
+    display: flex;
 }
-// .botonIngreso{
-//     height: 40px;
-//     width: 327.1502685546875px;
-//     left: 74px;
-//     top: 485.2020263671875px;
-//     border-radius: 8.497408866882324px;
-//     padding: 10px 7px 10px 7px;
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: center;
-//     align-items: center;
-//     padding: 10px 7px;
-//     gap: 7px;
 
-//     position: absolute;
-//     width: 327.15px;
-//     height: 40px;
-//     left: 74px;
-//     top: 485.2px;
-
-// /* primary */
-
-// background: #4285F4;
-// border-radius: 8.49741px;
-// }
