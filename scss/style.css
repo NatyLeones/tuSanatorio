@@ -295,17 +295,7 @@ li {
   padding-bottom: 50px;
   padding-left: 50px;
 }
-
-.paraemail {
-  padding: 20px 102px 20px 0px;
-}
-
-.contra {
-  padding: 20px 60px 20px 0px;
-  padding-bottom: 80px;
-}
-
-.formRegistro {
+.pruebaRegistro .formRegistro {
   width: 474px;
   left: 100px;
   top: 184px;
@@ -317,15 +307,27 @@ li {
   border-radius: 42.487px;
   box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.39);
 }
-.formRegistro .h2_registro {
+.pruebaRegistro .formRegistro .h2_registro {
   margin: 2rem 3rem 2rem;
 }
-
-.form-txt {
+.pruebaRegistro .formRegistro p {
+  font-family: "Regular";
+}
+.pruebaRegistro .formRegistro .paraemail {
+  padding: 20px 102px 20px 0px;
+  font-family: "Regular";
+}
+.pruebaRegistro .formRegistro .contra {
+  padding: 20px 60px 20px 0px;
+  padding-bottom: 80px;
+  font-family: "Regular";
+}
+.pruebaRegistro .form-txt {
   padding: 2rem;
   justify-content: center;
   font-size: 12px;
   display: flex;
+  font-family: "Regular";
 }
 
 .footer__top {

@@ -6,38 +6,40 @@
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
-}
-
-.paraemail{
-    padding: 20px 102px 20px 0px;
-   
-
-}
-.contra{
-    padding: 20px 60px 20px 0px;
-    padding-bottom: 80px;
-}
-.formRegistro{
-    // height: 656px;
-    width: 474px;
-    left: 100px;
-    top: 184px;
-    padding: 20px;
-    left: 6.94%;
-    right: 60.13%;
-    top: 17.97%;
-    // bottom: 17.97%;
-    background: #FFFFFF;
-    border-radius: 42.487px;
-    box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.39);
-    .h2_registro{
-        margin: 2rem 3rem 2rem;
+    .formRegistro{
+        // height: 656px;
+        width: 474px;
+        left: 100px;
+        top: 184px;
+        padding: 20px;
+        left: 6.94%;
+        right: 60.13%;
+        top: 17.97%;
+        // bottom: 17.97%;
+        background: #FFFFFF;
+        border-radius: 42.487px;
+        box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.39);
+        .h2_registro{
+            margin: 2rem 3rem 2rem;       
+        }
+        p{
+            font-family: "Regular";
+        }
+        .paraemail{
+            padding: 20px 102px 20px 0px;
+            font-family: "Regular";
+        }
+        .contra{
+            padding: 20px 60px 20px 0px;
+            padding-bottom: 80px;
+            font-family: "Regular";
+        }
+        }
+    .form-txt{
+        padding: 2rem;
+        justify-content: center;
+        font-size: 12px;
+        display: flex;
+        font-family: "Regular";   
     }
-    }
-.form-txt{
-    padding: 2rem;
-    justify-content: center;
-    font-size: 12px;
-    display: flex;
 }
-
